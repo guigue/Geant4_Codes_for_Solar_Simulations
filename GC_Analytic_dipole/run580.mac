@@ -1,0 +1,39 @@
+# Macro file for solar
+
+# Initialize kernel
+/run/initialize
+#
+#/control/verbose 2
+#/run/verbose 2
+#/event/verbose 2
+#/tracking/verbose 2
+
+
+##################################################
+######Chord Finder and Field Parameters###########
+##################################################
+
+#/field/setFieldZ 500 G
+#/field/setStepperType 4
+#/field/setMinStep 1 mm
+#/field/setDeltaIntersection 0.05 mm
+#/field/setDeltaOneStep 0.01 mm
+#/field/setDeltaChord 1 cm
+#/field/setEpsilonMin 2.5e-7 mm
+#/field/setEpsilonMax 0.05 mm
+#/field/setLargeAcceptableStep 10 km
+#/field/update
+
+/gps/position 0 0 10623 km
+
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 5.0 GeV
+/gps/ang/type beam1d
+
+### 80 DEG
+/gps/direction 0.174 0.0 -0.985
+
+
+/run/beamOn 1

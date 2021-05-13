@@ -1,0 +1,150 @@
+# Macro file for solar
+#
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Change the default number of workers (in multi-threading mode)
+#/run/numberOfThreads 8
+#
+# Initialize kernel
+/run/initialize
+#
+#/control/verbose 2
+#/run/verbose 2
+#/event/verbose 2
+#/tracking/verbose 1
+#
+# gamma 6 MeV to the direction (0.,0.,1.)
+#
+/gps/position 0 0 2 km
+
+### 5 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0.996 -0.0872
+
+/run/beamOn 1
+
+### 15 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0.966 -0.259
+
+/run/beamOn 1
+
+### 25 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0.906 -0.423
+
+/run/beamOn 1
+
+### 35 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0.819 -0.574
+
+/run/beamOn 1
+
+### 45 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0.707 -0.707
+
+/run/beamOn 1
+
+### 55 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0.574 -0.819
+
+/run/beamOn 1
+
+### 65 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0.423 -0.906
+
+/run/beamOn 1
+
+### 75 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0.259 -0.966
+
+/run/beamOn 1
+
+### 85 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0.0872 -0.996
+
+/run/beamOn 1
+
+### 90 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0 0 -1
+
+/run/beamOn 1
+
+
+
+
+
+
+
+
+#/gps/ene/type Pow
+#/gps/ene/min 0.2 GeV
+#/gps/ene/max 10.0 GeV
+#/gps/ene/alpha -2.0
+
+#/gps/ang/mintheta 0 rad
+#/gps/ang/maxtheta 1.5707963267948966 rad
+
+#/gps/ang/minphi 0 rad
+#/gps/ang/maxphi 6.283185307179586 rad
+
+
+

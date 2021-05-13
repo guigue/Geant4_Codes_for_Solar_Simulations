@@ -1,0 +1,8 @@
+/home/jordi/g4work/JORDI_code/solar_test/CMakeFiles/install.dir
+/home/jordi/g4work/JORDI_code/solar_test/CMakeFiles/list_install_components.dir
+/home/jordi/g4work/JORDI_code/solar_test/CMakeFiles/rebuild_cache.dir
+/home/jordi/g4work/JORDI_code/solar_test/CMakeFiles/edit_cache.dir
+/home/jordi/g4work/JORDI_code/solar_test/CMakeFiles/solar.dir
+/home/jordi/g4work/JORDI_code/solar_test/CMakeFiles/solar_test.dir
+/home/jordi/g4work/JORDI_code/solar_test/CMakeFiles/install/strip.dir
+/home/jordi/g4work/JORDI_code/solar_test/CMakeFiles/install/local.dir

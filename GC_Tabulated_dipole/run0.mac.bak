@@ -1,0 +1,57 @@
+# Macro file for solar
+#
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Change the default number of workers (in multi-threading mode)
+#/run/numberOfThreads 8
+#
+# Initialize kernel
+/run/initialize
+#
+#/control/verbose 2
+#/run/verbose 2
+#/event/verbose 2
+#/tracking/verbose 2
+#
+# gamma 6 MeV to the direction (0.,0.,1.)
+#
+/gps/position 0 0 10623 km
+#/gps/direction 0 0 1
+
+### 35 DEG ###
+/gps/particle proton
+
+/gps/ene/type Mono
+/gps/ene/mono 0.5 GeV
+
+/gps/ang/type beam1d
+/gps/direction 0.819152 0 -0.573576
+
+### 15 DEG ###
+#/gps/particle proton
+
+#/gps/ene/type Mono
+#/gps/ene/mono 0.5 GeV
+
+#/gps/ang/type beam1d
+#/gps/direction 0.966 0 -0.259
+
+
+#/gps/ang/type iso
+#/gps/ang/mintheta 0 rad
+#/gps/ang/maxtheta 1.5707963267948966 rad
+
+#/gps/ang/minphi 0 rad
+#/gps/ang/maxphi 6.283185307179586 rad
+
+
+#/gps/ene/type Pow
+#/gps/ene/min 0.2 GeV
+#/gps/ene/max 1.0 GeV
+#/gps/ene/alpha -2.0
+
+#/gps/ene/type Mono
+#/gps/ene/mono 1.0 GeV
+
+/run/beamOn 1

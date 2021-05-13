@@ -1,0 +1,14 @@
+#solar1.mac 
+#Macrofile test using gps for a beamed source of protons with power-law energy distribution from 0.2 to 1.0 #GeV
+
+/run/initialize
+/tracking/verbose 2
+
+/event/verbose 2
+
+
+/gun/particle proton
+/gun/energy 1 GeV
+
+
+/run/beamOn 10
